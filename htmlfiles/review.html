@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+    <style>
+      .image-01 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500;
+      }
+      .image-02 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140;
+      }
+      fieldset {
+        border: 1px solid gray;
+        width: 400px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+   <br />
+    <form>
+      <fieldset>
+        <legend>
+          <b>Your Review:</b>
+        </legend>
+        <label for="option">How did you hera about us?</label>
+        <select id="option">
+          <option selected value="facebook">facebook</option>
+          <option selected value="instagram">instagram</option>
+          <option selected value="whatsapp">whatsapp</option>
+          <option selected value="other">other</option>
+        </select>
+        <br />
+        <br />
+        <b
+          ><label for="yes">yes</label>
+          <input checked type="radio" id="yes" name="would you visit again" />
+          <label for="no">no</label>
+          <input checked type="radio" id="no" name="would you visit again" />
+          <label for="maybe">maybe</label>
+          <input checked type="radio" id="maybe" name="would you visit again" />
+        </b>
+        <br />
+        <br />
+        <b> <label for="comments"> comments:</label> <br /> </b>
+        <textarea
+          name=""
+          id="comments"
+          cols="30"
+          rows="5"
+          placeholder="Enter your text here..."
+        ></textarea>
+        <br /><br /> 
+        <b><label for="documents">Documents</label> </b> <br /> 
+        <input type="file"> <br /> <br />
+        <b><label for="signup">sign me up for email updates:</label> </b> <br /> 
+        <input type="checkbox"> <br /> <br /> 
+        <a href="./details.html"> <img class="image-02" src="Images/back.png" alt="back"></a>
+        <a href="./submit.html"><img class="image-02" src="Images/submit.png" alt="submit"></a>
+
+
+      </fieldset>
+    </form>
+  </body>
+</html>
